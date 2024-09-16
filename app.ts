@@ -4,7 +4,7 @@ const resumeDisplayelement =document.getElementById('resume-display') as HTMLDiv
 
 
 // handle form submission//
-form.addEventListener('submit', (event: Event)=>{
+form.addEventListener("submit", (event:Event)=>{
     event.preventDefault();//prevent page reload
 
     //collect input values//
@@ -19,7 +19,7 @@ form.addEventListener('submit', (event: Event)=>{
 
 
 //Generate the resume content dynamicaly//
-const resumeHTML=`
+const resumeHTML= `
 <h2><b>Resume</b></h2>
 <h3>Personal Informaion</h3>
 <p><b>Name:</b>${name}</p>
