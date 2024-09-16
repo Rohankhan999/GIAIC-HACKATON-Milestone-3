@@ -37,7 +37,7 @@ const resumeHTML= `
 <h3>Work Experience</h3>
 <p>${WorkExperience}</p>
 `;
-if(resumeDisplayelement){
+if(resumeDisplayelement){   
     resumeDisplayelement.innerHTML = resumeHTML;
 }else{
     console.error('The Resume Display Element is Missing!');
