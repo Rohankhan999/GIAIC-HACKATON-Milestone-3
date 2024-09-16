@@ -11,16 +11,47 @@
         h1{   
   font-family: "Sofadi One", system-ui;
         }
-        h2{
+        label,legend{
             font-family: "Space Grotesk", sans-serif;
         }
         </style>
 </head>
 <body>
+    <div class="mainheading"><h1>Dynamic Resume Builder</h1></div>
     <div class="parent">
-        <div class="mainheading"><h1>Dynamic Resume Builder</h1></div>
+        
+       
+           
         <div class="content">
-            <form><h2>Name</h2><input required type="text"  style="box-sizing: border-box;  "></form>
+            <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                    <label for="Name">Name:</label> <br>
+                    <input id="Name" required type="text" size="80" placeholder="Enter Your Name"  style="box-sizing: border-box;  margin-left: 100px; padding:10px; border-radius: 5px;">
+                    <label for="fathername">Father Name:</label>
+                    <input id="Name" required type="text" size="80" placeholder="Enter Your Father Name "  style="box-sizing: border-box; margin-top: 10px; margin-left: 100px; padding:10px; border-radius: 5px;">
+                    <label for="email">Email:</label>
+                    <input id="Name" required="@" type="text" size="80" placeholder="Enter Your Email"  style="box-sizing: border-box; margin-top: 10px; margin-left: 100px; padding:10px; border-radius: 5px;">
+                    <label for="Address">Address:</label>
+                    <input id="Name" required="@" type="text" size="80" placeholder="Enter Your Address"  style="box-sizing: border-box; margin-top: 10px; margin-left: 100px; padding:10px; border-radius: 5px; margin-bottom: 20px;"> 
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="Eduction">Education:</label> <br>
+            <textarea name="Education"  id="Education" rows="6" cols="80"  placeholder="Enter your Education" ></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="Skills">Skills:</label> <br>
+            <textarea name="Skills"  id="Skills" rows="6" cols="80"  placeholder="Enter your Skills" ></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Work Experience</legend>
+            <label for="Work Experience">Work Experience:</label> <br>
+            <textarea name="Work Experience"  id="Work Experience" rows="6" cols="80"  placeholder="Enter your Work Experience" ></textarea>
+        </fieldset>
+        <button type="submit">Create a Resume</button>
+    </form> 
         </div>
 
 

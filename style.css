@@ -1,5 +1,9 @@
+body{
+margin:20px;
+padding: 20px;
+}
 .parent{
-    width:100%;
+    width:900px;
     height:auto;
     margin:auto;
     border: 2px black solid;
@@ -8,7 +12,7 @@
 }
 .mainheading{
     margin: auto;
-    width:100%;
+    width:900px;
     height:100px;
 }
 .content{
@@ -18,9 +22,35 @@
      
 }
 h1{
-    margin-left: 450px;
+    margin: 30px;
+    margin-left: 250px;
+    font-weight:bolder;
+    
 }
-h2{
-    letter-spacing: 1px;
-    font-size:30px;
+fieldset{
+    margin: 40px;
+    border:2px solid rgb(14, 115, 105);
+    
+}
+label{
+   font-size:20px;
+   font-weight:600;
+   margin-top: 30px;
+   margin-left: 100px;
+   display: block;
+}
+legend{
+    font-weight:900;
+}
+textarea{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px;
+    background-color:palevioletred;
+    border-radius: 10px;
+    margin-bottom:20px;
+    margin-left: 370px;
+    border: none;
 }
