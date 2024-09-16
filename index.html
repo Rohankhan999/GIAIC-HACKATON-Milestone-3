@@ -23,17 +23,19 @@
        
            
         <div class="content">
-            <form>
+            <form id="resume-form">
             <fieldset>
                 <legend>Personal Information</legend>
                     <label for="Name">Name:</label> <br>
                     <input id="Name" required type="text" size="80" placeholder="Enter Your Name"  style="box-sizing: border-box;  margin-left: 100px; padding:10px; border-radius: 5px;">
                     <label for="fathername">Father Name:</label>
-                    <input id="Name" required type="text" size="80" placeholder="Enter Your Father Name "  style="box-sizing: border-box; margin-top: 10px; margin-left: 100px; padding:10px; border-radius: 5px;">
+                    <input id="fathername" required type="text" size="80" placeholder="Enter Your Father Name "  style="box-sizing: border-box; margin-top: 10px; margin-left: 100px; padding:10px; border-radius: 5px;">
+                    <label for="ph no">Father Name:</label>
+                    <input id="phno" required type="number" maxlength="11" size="80" placeholder="Enter Your Ph-Number"  style="box-sizing: border-box; margin-top: 10px; margin-left: 100px; padding:10px; border-radius: 5px;">
                     <label for="email">Email:</label>
-                    <input id="Name" required="@" type="text" size="80" placeholder="Enter Your Email"  style="box-sizing: border-box; margin-top: 10px; margin-left: 100px; padding:10px; border-radius: 5px;">
+                    <input id="email" required="@" type="text" size="80" placeholder="Enter Your Email"  style="box-sizing: border-box; margin-top: 10px; margin-left: 100px; padding:10px; border-radius: 5px;">
                     <label for="Address">Address:</label>
-                    <input id="Name" required="@" type="text" size="80" placeholder="Enter Your Address"  style="box-sizing: border-box; margin-top: 10px; margin-left: 100px; padding:10px; border-radius: 5px; margin-bottom: 20px;"> 
+                    <input id="Address" required="@" type="text" size="80" placeholder="Enter Your Address"  style="box-sizing: border-box; margin-top: 10px; margin-left: 100px; padding:10px; border-radius: 5px; margin-bottom: 20px;"> 
         </fieldset>
         <fieldset>
             <legend>Education</legend>
@@ -48,16 +50,22 @@
         <fieldset>
             <legend>Work Experience</legend>
             <label for="Work Experience">Work Experience:</label> <br>
-            <textarea name="Work Experience"  id="Work Experience" rows="6" cols="80"  placeholder="Enter your Work Experience" ></textarea>
+            <textarea name="WorkExperience"  id="WorkExperience" rows="6" cols="80"  placeholder="Enter your Work Experience" ></textarea>
         </fieldset>
-        <button type="submit">Create a Resume</button>
+        <button id="submit"><b>Create a Resume</b></button>
     </form> 
-        </div>
+    <br>
+    <div id="resume-display"></div>
+
+
+
+        
 
 
 
 
 
     </div>
+    <script src="app.js"></script>
 </body>
 </html>

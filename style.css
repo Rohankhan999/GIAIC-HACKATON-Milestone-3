@@ -53,4 +53,18 @@ button{
     margin-bottom:20px;
     margin-left: 370px;
     border: none;
+    display: block;
+}
+button:hover{
+    background-color: RED;
+}
+#resume-display{
+    width:900px;
+    margin:40px;
+    border: 2px black solid;
+    background-color: #D9AFD9;
+    background-image:linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+#resume-display h2{
+    color: black;
 }
