@@ -12,10 +12,10 @@ form.addEventListener("submit", (event:Event)=>{
     const fathername =(document.getElementById('fathername') as HTMLInputElement).value
     const phno =(document.getElementById('phno') as HTMLInputElement).value
     const email =(document.getElementById('email') as HTMLInputElement).value
-    const Address =(document.getElementById('Address') as HTMLInputElement).value
-    const Education =(document.getElementById('Education') as HTMLInputElement).value
-    const Skills =(document.getElementById('Skills') as HTMLInputElement).value
-    const  WorkExperience  =(document.getElementById(' WorkExperience ') as HTMLInputElement).value
+    const Address  =(document.getElementById('Address') as HTMLInputElement).value
+    const Education = (document.getElementById('Education') as HTMLInputElement).value
+    const Skills = (document.getElementById('Skills') as HTMLInputElement).value
+    const WorkExperience = (document.getElementById(' WorkExperience ') as HTMLInputElement).value
 
 
 //Generate the resume content dynamicaly//
